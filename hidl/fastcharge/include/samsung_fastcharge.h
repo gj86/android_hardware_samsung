@@ -18,6 +18,6 @@
 #define SAMSUNG_FASTCHARGE_H
 
 #define FASTCHARGE_DEFAULT_SETTING true
-#define FASTCHARGE_PATH "/sys/class/sec/switch/afc_disable"
+#define FASTCHARGE_PATH "/sys/kernel/fast_charge/force_fast_charge"
 
 #endif // SAMSUNG_FASTCHARGE_H
